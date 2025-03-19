@@ -1,0 +1,30 @@
+[
+  {
+    "id": "0",
+    "company": "BRQ Glob",
+    "jobTitle": "React Developer Intern",
+    "years": "March 2024 - June 2024",
+    "description": "Developed features for an ERP Admin Dashboard, optimized performance, and collaborated with teams to enhance user experience."
+  },
+  {
+    "id": "1",
+    "company": "Self-Learning & Bootcamp",
+    "jobTitle": "Full-Stack Development",
+    "years": "2023 - Present",
+    "description": "Completed a bootcamp and built full-stack applications using React.js, Node.js, and modern web technologies."
+  },
+  {
+    "id": "2",
+    "company": "Government Polytechnic College, Thottada",
+    "jobTitle": "Diploma in Textile Technology",
+    "years": "2015 - 2018",
+    "description": "Technical coursework with problem-solving methodologies and process optimization."
+  },
+  {
+    "id": "3",
+    "company": "Chovva Higher Secondary School",
+    "jobTitle": "Plus Two (Biology Science)",
+    "years": "2013 - 2015",
+    "description": "Completed higher secondary education with a focus on science and analytical skills."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Frontend",
+    "icon": "Code",
+    "items": ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS", "Bootstrap", "Next.js", "Svelte"]
+  },
+  {
+    "title": "Backend",
+    "icon": "Dns",
+    "items": ["Node.js", "Express.js", "EJS", "TypeScript", "Next.js"]
+  },
+  {
+    "title": "Programming",
+    "icon": "Terminal",
+    "items": ["JavaScript", "C", "DSA", "TypeScript"]
+  },
+  {
+    "title": "Cloud",
+    "icon": "Cloud",
+    "items": ["AWS", "EC2", "Cloudinary", "Firebase"]
+  },
+  {
+    "title": "Database",
+    "icon": "Storage",
+    "items": ["MongoDB", "SQL", "PostgreSQL"]
+  },
+  {
+    "title": "Soft Skills",
+    "icon": "Psychology",
+    "items": ["Communication", "Problem Solving", "Team Collaboration"]
+  }
+]

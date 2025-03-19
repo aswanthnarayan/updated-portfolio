@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0",
+    "title": "Toolbear - Full-Stack E-commerce Platform",
+    "image": "../images/Toolbear.png",
+    "description": "A MERN stack e-commerce platform with secure user authentication, payments, and an admin dashboard.",
+    "skills": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Google Cloud ,Nginx"],
+    "githubLink": "https://github.com/aswanthnarayan/toolbear-fullstack",
+    "websiteLink": "https://toolbear.shop/"
+  },
+  {
+    "id": "1",
+    "title": "Kunji.link - URL Shortener",
+    "image": "../images/Kunji Link.png",
+    "description": "A full-stack URL shortener with user authentication and rate limiting.",
+    "skills": ["Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    "githubLink": "https://github.com/aswanthnarayan/kunji.link",
+    "websiteLink": "https://kunji-link.vercel.app/"
+  },
+  {
+    "id": "2",
+    "title": "Netflix Clone",
+    "image": "../images/Netflix-clone.png",
+    "description": "A Netflix-inspired movie streaming UI using TMDB API with authentication via Appwrite.",
+    "skills": ["React", "Appwrite", "TMDB API", "Tailwind CSS"],
+    "githubLink": "https://github.com/aswanthnarayan/Netflix-Clone-React",
+    "websiteLink": "https://react-clone-2024.netlify.app/"
+  },
+  {
+    "id": "3",
+    "title": "Done It - Note-Taking App",
+    "image": "../images/Done It.png",
+    "description": "A minimalist note-taking app with a mobile-first design.",
+    "skills": ["React", "Tailwind CSS", "Firebase"],
+    "githubLink": "https://github.com/aswanthnarayan/todo-react-tailwind",
+    "websiteLink": "https://done-it-todo.netlify.app/"
+  }
+]
