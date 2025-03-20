@@ -9,7 +9,7 @@ export default defineConfig({
     open: true
   },
   build: {
-    outDir: 'build',
+    outDir: 'dist',
     sourcemap: true
   },
   resolve: {
@@ -28,6 +28,7 @@ export default defineConfig({
       loader: {
         '.js': 'jsx'
       }
-    }
+    },
+    include: ['@mui/material']
   }
 })
