@@ -19,7 +19,7 @@ import {
 } from "@mui/material";
 import { Link } from "react-scroll";
 
-const resumePath = "/public/Aswanth_Resume.pdf";
+const resumePath = "/Aswanth_Resume.pdf";
 
 const StyledAppBarContainer = styled("div")(({ theme }) => ({
   flexDirection: "column",
