@@ -8,8 +8,9 @@ import {
 import { styled } from "@mui/material";
 import { useTheme } from "@mui/material";
 
+
 //Component Styles//
-const StyledAnchorLink = styled("a")(({ theme }) => ({
+ export const StyledAnchorLink = styled("a")(({ theme }) => ({
   "& svg": {
     width: "2.2rem",
     cursor: "pointer",

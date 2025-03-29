@@ -18,6 +18,13 @@ import {
   styled,
 } from "@mui/material";
 import { Link } from "react-scroll";
+import { StyledAnchorLink } from "./SideAnchorLinks"
+import {
+  emailSvgPath,
+  githubSvgPath,
+  linkedInSvgPath,
+  whatsappSvgPath
+} from "./SvgHelper";
 
 const resumePath = "/Aswanth_Resume.pdf";
 
@@ -142,6 +149,15 @@ const StyledDrawer = styled(Drawer)(({ theme }) => ({
 const StyledDrawerList = styled(List)(({ theme }) => ({
   display: "flex",
 }));
+
+const StyledSocialLinksContainer = styled(Box)({
+  display: "flex",
+  justifyContent: "center", 
+  alignItems: "center",
+  gap: "1.5rem", 
+  padding: "1rem 0", 
+});
+
 //End component style//
 
 const Navbar = () => {
@@ -247,7 +263,7 @@ const Navbar = () => {
               </Typography>
             </StyledResumeLink>
           </StyledDrawerList>
-          
+
           {navbarData.map((data) => (
             <StyledDrawerList key={data.id}>
               <StyledAppBarDrawerLink
@@ -260,6 +276,80 @@ const Navbar = () => {
               </StyledAppBarDrawerLink>
             </StyledDrawerList>
           ))}
+          <StyledSocialLinksContainer>
+          <StyledAnchorLink
+            href="https://www.linkedin.com/in/aswanth-narayanan/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <svg
+              fill={"#ffff"}
+              width="44px"
+              height="44px"
+              viewBox="-5.5 0 32 32"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>LinkedIn</title>
+              <path d={linkedInSvgPath} />
+            </svg>
+          </StyledAnchorLink>
+          <StyledAnchorLink
+            href="https://github.com/aswanthnarayan"
+            target="_blank"
+            aria-label="Github"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 32 32"
+              width="44px"
+              height="44px"
+              fillRule="evenodd"
+              fill={"#ffff"}
+            >
+              <title>Github</title>
+              <path fillRule="evenodd" d={githubSvgPath} />
+            </svg>
+          </StyledAnchorLink>
+          <StyledAnchorLink
+            href="mailto:aswanthnarayanan@gmail.com"
+            sx={{ transform: "scale(0.90)" }}
+          >
+            <svg
+              fill={"#ffff"}
+              height="44px"
+              width="44px"
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 75.294 75.294"
+              xmlSpace="preserve"
+            >
+              <title>Email</title>
+              <g>
+                <path d={emailSvgPath} />
+              </g>
+            </svg>
+          </StyledAnchorLink>
+          <StyledAnchorLink
+            href="https://wa.me/918592837949"
+            target="_blank"
+            aria-label="WhatsApp"
+          >
+            <svg
+              fill={"#ffff"}
+              width="44px"
+              height="44px"
+              viewBox="0 0 32 32"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>WhatsApp</title>
+              <path d={whatsappSvgPath} />
+            </svg>
+          </StyledAnchorLink>
+          </StyledSocialLinksContainer>
         </Box>
       </StyledDrawer>
     </>
