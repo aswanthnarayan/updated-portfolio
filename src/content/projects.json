@@ -1,37 +1,76 @@
 [
   {
     "id": "0",
+    "title": "AI-Powered Image Editor",
+    "image": "../images/ImageEditor.png",
+    "description": "A Next.js web application with AI-powered image editing, collaborative design, and cloud storage integration.",
+    "skills": [
+      "Next.js",
+      "React",
+      "Convex",
+      "TypeScript",
+      "Tailwind CSS",
+      "ImageKit",
+      "AI Integration",
+      "Serverless Functions"
+    ],
+    "githubLink": "https://github.com/aswanthnarayan/image-editor",
+    "websiteLink": "https://pixia-editor.vercel.app/"
+  },
+  {
+    "id": "1",
     "title": "Toolbear - Full-Stack E-commerce Platform",
     "image": "../images/Toolbear.png",
     "description": "A MERN stack e-commerce platform with secure user authentication, payments, and an admin dashboard.",
-    "skills": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Google Cloud ,Nginx"],
+    "skills": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS",
+      "Google Cloud ,Nginx"
+    ],
     "githubLink": "https://github.com/aswanthnarayan/toolbear-fullstack",
     "websiteLink": "https://toolbear.shop/"
   },
   {
-    "id": "1",
+    "id": "2",
     "title": "Kunji.link - URL Shortener",
     "image": "../images/Kunji Link.png",
     "description": "A full-stack URL shortener with user authentication and rate limiting.",
-    "skills": ["Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    "skills": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS"
+    ],
     "githubLink": "https://github.com/aswanthnarayan/kunji.link",
     "websiteLink": "https://kunji-link.vercel.app/"
   },
   {
-    "id": "2",
+    "id": "3",
     "title": "Netflix Clone",
     "image": "../images/Netflix-clone.png",
     "description": "A Netflix-inspired movie streaming UI using TMDB API with authentication via Appwrite.",
-    "skills": ["React", "Appwrite", "TMDB API", "Tailwind CSS"],
+    "skills": [
+      "React",
+      "Appwrite",
+      "TMDB API",
+      "Tailwind CSS"
+    ],
     "githubLink": "https://github.com/aswanthnarayan/Netflix-Clone-React",
     "websiteLink": "https://react-clone-2024.netlify.app/"
   },
   {
-    "id": "3",
+    "id": "4",
     "title": "Done It - Note-Taking App",
     "image": "../images/Done It.png",
     "description": "A minimalist note-taking app with a mobile-first design.",
-    "skills": ["React", "Tailwind CSS", "Firebase"],
+    "skills": [
+      "React",
+      "Tailwind CSS",
+      "Firebase"
+    ],
     "githubLink": "https://github.com/aswanthnarayan/todo-react-tailwind",
     "websiteLink": "https://done-it-todo.netlify.app/"
   }
