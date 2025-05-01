@@ -1,8 +1,29 @@
-# React + Vite
+# Aswanth's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! Built with **React**, **Vite**, and **Material UI**, this portfolio showcases my projects, skills, and achievements. It includes sections like About, Projects, Contact, and more.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live version of my portfolio here:  
+[**Live Portfolio**](https://aswanthck.netlify.app/)
+
+## ✨ Features
+
+- 🌟 **Modern Design**: Clean and responsive design built with **Material UI** and **Animate.css**.
+- 📁 **Project Showcase**: Browse through my portfolio projects with sleek, interactive components.
+- ✉️ **Contact Form**: Send me messages directly using **EmailJS** integration.
+- 🎥 **Animations**: Smooth scrolling, hover effects, and page transitions powered by **Framer Motion**.
+- 🧑‍💻 **React & Vite**: Fast, efficient, and optimized for performance.
+- 📝 **Form Handling**: Integrated form validation using **React Hook Form** and **Yup** for validation.
+
+## 🧰 Tech Stack
+
+- **Frontend**: React 18, Vite
+- **UI**: Material UI
+- **Form Management**: React Hook Form, Yup (for validation)
+- **Email Service**: EmailJS
+- **Animations**: Framer Motion, Animate.css
+- **Routing**: React Router DOM
+- **Miscellaneous**: React Intersection Observer, Slick Carousel
+
+
