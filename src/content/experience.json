@@ -1,27 +1,34 @@
 [
   {
     "id": "0",
+    "company": "XSCAPE ENTERPRISE LLP",
+    "jobTitle": "Full Stack Developer Intern",
+    "years": "November 2024 - April 2025",
+    "description": "Contributed to full-stack web applications using React.js and Supabase as part of an Agile development team. Actively participated in sprint planning, daily stand-ups, and code reviews while using tools like Figma, Microsoft Planner, and Teams to ensure smooth collaboration and timely delivery of scalable features."
+  },
+  {
+    "id": "1",
     "company": "BRQ Glob",
     "jobTitle": "React Developer Intern",
     "years": "March 2024 - June 2024",
     "description": "Developed features for an ERP Admin Dashboard, optimized performance, and collaborated with teams to enhance user experience."
   },
   {
-    "id": "1",
+    "id": "2",
     "company": "Self-Learning & Bootcamp",
     "jobTitle": "Full-Stack Development",
-    "years": "2023 - Present",
+    "years": "2024 - Present",
     "description": "Completed a bootcamp and built full-stack applications using React.js, Node.js, and modern web technologies."
   },
   {
-    "id": "2",
+    "id": "3",
     "company": "Government Polytechnic College, Thottada",
     "jobTitle": "Diploma in Textile Technology",
     "years": "2015 - 2018",
     "description": "Technical coursework with problem-solving methodologies and process optimization."
   },
   {
-    "id": "3",
+    "id": "4",
     "company": "Chovva Higher Secondary School",
     "jobTitle": "Plus Two (Biology Science)",
     "years": "2013 - 2015",
