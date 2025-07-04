@@ -35,6 +35,21 @@
   },
   {
     "id": "2",
+    "title": "AI Cover Letter Generator",
+    "image": "../images/ai-cover-letter.png",
+    "description": "A Next.js web application with AI-powered cover letter generation. It uses HuggingFace's API to generate cover letters based on user input and Resume data.",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "HuggingFace",
+      "Tailwind CSS"
+    ],
+    "githubLink": "https://github.com/aswanthnarayan",
+    "websiteLink": "https://ai-coverletters.vercel.app"
+ },
+  {
+    "id": "3",
     "title": "Kunji.link - URL Shortener",
     "image": "../images/Kunji Link.png",
     "description": "A full-stack URL shortener with user authentication and rate limiting.",
@@ -48,7 +63,7 @@
     "websiteLink": "https://kunji-link.vercel.app/"
   },
   {
-    "id": "3",
+    "id": "4",
     "title": "Netflix Clone",
     "image": "../images/Netflix-clone.png",
     "description": "A Netflix-inspired movie streaming UI using TMDB API with authentication via Appwrite.",
@@ -62,7 +77,7 @@
     "websiteLink": "https://react-clone-2024.netlify.app/"
   },
   {
-    "id": "4",
+    "id": "5",
     "title": "Done It - Note-Taking App",
     "image": "../images/Done It.png",
     "description": "A minimalist note-taking app with a mobile-first design.",
