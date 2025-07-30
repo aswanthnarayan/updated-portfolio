@@ -47,7 +47,7 @@ const Main = () => {
 
   return (
     <>
-      <Toaster position="top-right" /> {/* ✅ Add this line */}
+      <Toaster position="top-right" /> 
       {isLoading ? (
         <Loader />
       ) : (

@@ -32,8 +32,14 @@ const StyledSkillGrid = styled("div")(({ theme }) => ({
   display: "grid",
   gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
   gap: "1.5rem",
-  marginBottom: "3rem",
+  margin: "0 auto 3rem",
   width: "100%",
+  maxWidth: "1200px",
+  [theme.breakpoints.down('sm')]: {
+    gridTemplateColumns: "minmax(250px, 300px)",
+    justifyContent: "center",
+    padding: "0 1rem"
+  }
 }));
 
 const StyledSkillCard = styled("div")(({ theme }) => ({
@@ -53,7 +59,6 @@ const StyledSkillCard = styled("div")(({ theme }) => ({
     padding: "1.25rem",
   },
 }));
-
 
 const StyledSkillHeader = styled("div")(({ theme }) => ({
   color: theme.palette.textMain.main,
@@ -81,38 +86,32 @@ const Skill = ({ skills }) => {
 
   return (
     <Scroll.Element name="Skills">
-      <StyledGenericRoot>
-        <StyledGenericContainer
-          ref={skillsContainer}
-          sx={
-            skillsContainerInView
-              ? { visibility: "visible" }
-              : { visibility: "hidden" }
-          }
-          className={
-            skillsContainerInView ? "animate__animated animate__fadeInUp" : ""
-          }
-        >
-          <StyledGenericTitle component="h1">
-            Skills & Expertise
-            <StyledDivider />
-          </StyledGenericTitle>
-          <StyledSkillGrid>
-            {skills.map((category, index) => (
-              <StyledSkillCard key={index}>
-                <StyledSkillHeader>
-                {iconMap[category.icon] || <Code fontSize="large" />} {/* Default to Code icon if missing */}
-                  <Typography variant="h6">{category.title}</Typography>
-                </StyledSkillHeader>
-                <div>
-                  {category.items.map((skill, i) => (
-                    <StyledSkillItem key={i}>{skill}</StyledSkillItem>
-                  ))}
-                </div>
-              </StyledSkillCard>
-            ))}
-          </StyledSkillGrid>
-        </StyledGenericContainer>
+      <StyledGenericRoot ref={skillsContainer}>
+        {skillsContainerInView && (
+          <StyledGenericContainer
+            className={"animate__animated animate__fadeInUp"}
+          >
+            <StyledGenericTitle component="h1">
+              Skills & Expertise
+              <StyledDivider />
+            </StyledGenericTitle>
+            <StyledSkillGrid>
+              {skills.map((category, index) => (
+                <StyledSkillCard key={index}>
+                  <StyledSkillHeader>
+                    {iconMap[category.icon] || <Code fontSize="large" />} {/* Default to Code icon if missing */}
+                    <Typography variant="h6">{category.title}</Typography>
+                  </StyledSkillHeader>
+                  <div>
+                    {category.items.map((skill, i) => (
+                      <StyledSkillItem key={i}>{skill}</StyledSkillItem>
+                    ))}
+                  </div>
+                </StyledSkillCard>
+              ))}
+            </StyledSkillGrid>
+          </StyledGenericContainer>
+        )}
       </StyledGenericRoot>
     </Scroll.Element>
   );
