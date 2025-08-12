@@ -117,7 +117,7 @@ const Experience = () => {
             <StyledDivider />
           </StyledGenericTitle>
           <StyledGenericSubText component="h1">
-          I transitioned into software development through a bootcamp, gaining hands-on experience. As a React Developer Intern at BRQ Glob, I contributed to an ERP Admin Dashboard and built full-stack applications.
+            I transitioned into software development through self-learning and a bootcamp, gaining hands-on experience in full-stack development. As a Full Stack Developer Intern at XSCAPE ENTERPRISE LLP, I contributed to web applications using React.js and Supabase while working in an Agile environment.
           </StyledGenericSubText>
         </StyledGenericContainer>
 
